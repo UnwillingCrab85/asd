@@ -1,0 +1,297 @@
+body{
+  color: #40514E;
+  text-align: center;
+  margin: 0;
+  /* background-color: #FFE4C4; */
+}
+
+
+h1{
+  margin-top: 0;
+
+}
+
+h2{
+  font-weight: normal;
+  color: #778899;
+  padding-bottom: 11px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+
+}
+
+h3{
+  font-family: 'Heebo', sans-serif;
+  font-size: 2rem;
+  color: #FFB6C1;
+}
+
+hr{
+  width: 4%;
+      border-style: dotted none none;
+      border-width: 7px;
+      border-color: #EAF6F6;
+      margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+color: #778899;
+margin: 10px 20px;
+text-decoration: none;
+font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/* navbar */
+.div-de-navbar{
+  padding: 0;
+}
+
+.container-fluid{
+
+
+}
+.titulo-moñitos-nav{
+  font-family: 'Satisfy', cursive;
+  font-size: 4rem;
+text-align: center;
+padding-left: 1.8rem;
+}
+
+.div-tit-moñitos{
+  text-align: center;
+}
+.fotico-logo-div{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.logo-nav{
+   width: 6%;
+}
+
+.nav-link{
+  color: black;
+}
+
+/* offcanvas header */
+
+.offcanvas-header{
+  background-color: #FFE4E1;
+}
+
+#offcanvasNavbarLabel{
+    font-family: Satisfy, cursive;
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+#offcanvasNavbar{
+  background-color: #FFE4E1;
+}
+
+
+
+/*
+top container */
+
+.top-container{
+  background-color: #fff;
+  position: relative;
+  padding-top: 0;
+  margin-top: 0;
+}
+.moño-about-us{
+width: 20%;
+}
+
+top-container-nav{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  margin-top: 5rem;
+}
+
+
+
+.profile{
+  padding-top: 15px;
+}
+
+.conteiner {
+position: relative;
+}
+
+#testimonials{
+  /* text-align: center;
+background-color: #F0F8FF;
+color: black; */
+width: 100%;
+}
+
+
+
+/* boton */
+.myButton {
+	box-shadow:inset -7px 1px 0px -11px #fbafe3;
+	background-color:#ff5bb0;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+}
+.myButton:hover {
+	background-color:#ef027d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.Contenido-features{
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5rem;
+}
+
+.testimonial-image{
+  border-radius: 10%;
+  width: 15%;
+}
+
+/* apartado de confiabilidad features */
+.imgs-de-features{
+  width: 27%;
+}
+
+
+.name{
+  font-family: 'Square Peg', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color:#66BFBF;
+}
+
+.subtitle{
+font-family: 'Cinzel', serif;
+font-family: 'Ms Madi', cursive;
+font-family: 'Square Peg', cursive;
+font-size: 2.5rem;
+color:#66BFBF;
+}
+
+
+/* skills */
+
+.nueva-coleccion{
+  margin-top: 2.5rem;
+  font-size: 7rem;
+  color: black;
+}
+
+
+
+
+.Compu-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.box-image{
+  width: 30%;
+  float: right;
+  margin: 30px auto 10px auto;
+}
+
+.contact-me{
+  margin-bottom: 100px;
+}
+
+.bottom-container{
+background-color: #FFE4E1;
+position: relative;
+padding-top: 2rem;
+margin-bottom: 0;
+}
+
+
+
+
+
+
+.footer-link{
+  padding-top: 1.5rem;
+}
+
+
+.footer-name{
+color: black;
+margin-top: 2rem;
+}
+
+/* productos */
+/* .container{
+  margin:auto 5.625rem auto 5.625rem;
+} */
+
+
+.main-row{
+  margin-top: 8%;
+}
+
+.card{
+  cursor:pointer;
+}
+
+.card img{
+  transform: translateY(-50px);
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.card .card-body{
+  visibility: hidden;
+  transform: translateY(-150px);
+  height:0px;
+}
+
+.card:hover .card-body{
+  visibility: visible;
+  transform: translateY(-50px);
+  transition: .5s;
+  height: auto;
+}
+
+/* pedir moñitos */
+#features{
+  margin-top: 4rem;
+}
+
+.pedir-moñitos{
+  margin-top: 2rem;
+}
+
+.fotos-pedir-moñitos{
+
+}
+
+.pre-bottom-page{
+  background-color: #F0FFF0;
+  margin-bottom: 4rem;
+}
